@@ -1,0 +1,16 @@
+# StarlandMech Robots.txt
+# https://starlandmech.com
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://starlandmech.com/sitemap.xml
+
+# Disallow assets that don't need indexing
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Allow images for image search
+Allow: /assets/images/

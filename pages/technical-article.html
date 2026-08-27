@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StarlandMech Technical Articles - Expert knowledge and insights about diamond core drills, drill stands, floor grinders, and construction machinery best practices.">
+    <meta name="keywords" content="technical articles, construction machinery guides, core drilling tips, floor grinder operation, equipment maintenance, StarlandMech knowledge base">
+    <meta name="author" content="StarlandMech">
+    <meta name="robots" content="index, follow">
+    <title>Technical Articles | StarlandMech - Expert Knowledge & Guides</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://starlandmech.com/pages/technical-article.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Technical Articles | StarlandMech - Expert Knowledge & Guides">
+    <meta property="og:description" content="Expert knowledge and insights about diamond core drills, drill stands, floor grinders, and construction machinery.">
+    <meta property="og:url" content="https://starlandmech.com/pages/technical-article.html">
+    <meta property="og:site_name" content="StarlandMech">
+    <meta property="og:image" content="https://starlandmech.com/assets/images/logo-footer.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Technical Articles | StarlandMech">
+    <meta name="twitter:description" content="Expert knowledge and insights about diamond core drills, drill stands, and floor grinders.">
+    <meta name="twitter:image" content="https://starlandmech.com/assets/images/logo-footer.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+    <style>
+        /* Technical Articles Page Specific Styles */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem 0;
+        }
+
+        .article-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .article-image {
+            height: 200px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .article-image i {
+            font-size: 4rem;
+            color: #ffc107;
+        }
+
+        .article-content {
+            padding: 1.5rem;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: #ffc107;
+            color: #1a1a2e;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-content h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: #1a1a2e;
+            line-height: 1.4;
+        }
+
+        .article-content p {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .article-link {
+            color: #ffc107;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .article-link:hover {
+            color: #1a1a2e;
+        }
+
+        .coming-soon-notice {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 3rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .coming-soon-notice i {
+            font-size: 3rem;
+            color: #ffc107;
+            margin-bottom: 1rem;
+        }
+
+        .coming-soon-notice h3 {
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .coming-soon-notice p {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="site-header"></div>
+
+    <!-- Page Header -->
+    <section class="services-hero-banner">
+        <div class="banner-overlay"></div>
+        <img src="../assets/images/technical-article-header-banner.jpg" alt="Technical Articles" class="banner-bg">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="../index.html">Home</a>
+                <span>&gt;</span>
+                <a href="services.html">Service</a>
+                <span>&gt;</span>
+                <span>Technical Article</span>
+            </nav>
+            <div class="banner-content">
+                <h1>TECHNICAL ARTICLES</h1>
+                <p>Expert knowledge and guides to help you get the most from your equipment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Content -->
+    <section class="services-intro">
+        <div class="container">
+            <h2>Knowledge Center</h2>
+            <p>Explore our collection of technical articles covering core drilling, floor grinding, equipment maintenance, and industry best practices. Our expert guides are designed to help you work more efficiently and extend the life of your machinery.</p>
+        </div>
+    </section>
+
+    <section class="services-grid-section">
+        <div class="container">
+            <div class="articles-grid">
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-circle-notch"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Core Drilling</span>
+                        <h3>Understanding Diamond Core Drill Specifications</h3>
+                        <p>Learn how to choose the right core drill based on power, speed, and drilling capacity for your specific applications.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Maintenance</span>
+                        <h3>Essential Maintenance Tips for Drill Stands</h3>
+                        <p>Proper maintenance extends equipment life. Discover key practices for keeping your drill stands in optimal condition.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Safety</span>
+                        <h3>Safety Best Practices for Floor Grinding Operations</h3>
+                        <p>Essential safety guidelines and protective measures for operating floor grinding equipment effectively.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Guide</span>
+                        <h3>Choosing the Right Diamond Segment for Your Application</h3>
+                        <p>A comprehensive guide to selecting diamond segments based on material hardness and cutting requirements.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Performance</span>
+                        <h3>Optimizing Core Drilling Speed and Efficiency</h3>
+                        <p>Techniques and tips to maximize drilling performance while maintaining quality and equipment longevity.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-image">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Troubleshooting</span>
+                        <h3>Common Floor Grinder Issues and Solutions</h3>
+                        <p>Identify and resolve common problems with floor grinding equipment to minimize downtime.</p>
+                        <a href="#" class="article-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coming-soon-notice">
+                <i class="fas fa-newspaper"></i>
+                <h3>More Articles Coming Soon</h3>
+                <p>We're continuously adding new technical content. Check back regularly for the latest guides and industry insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="services-cta">
+        <div class="container">
+            <h2>Have Technical Questions?</h2>
+            <p>Our expert team is ready to help with any questions about our products and applications.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="products.html" class="btn btn-outline">View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="site-footer"></div>
+
+    <!-- Scroll to Top -->
+    <button id="scrollToTop" class="scroll-to-top"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="../assets/js/components.js"></script>
+    <script>renderHeader('technical-article'); renderFooter();</script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

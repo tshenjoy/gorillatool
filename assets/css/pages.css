@@ -1,0 +1,937 @@
+/* =============================================
+   StarlandMech - Pages Stylesheet
+   Styles specific to sub-pages
+   ============================================= */
+
+/* ---------------------------------------------
+   Page Header
+   --------------------------------------------- */
+.page-header {
+    position: relative;
+    padding: 120px 0 60px;
+    background-color: var(--bg-light);
+    margin-top: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 1;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.page-header[style*="background-image"] h1,
+.page-header[style*="background-image"] .breadcrumb,
+.page-header[style*="background-image"] .breadcrumb a {
+    color: var(--text-light);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    color: var(--primary-color);
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------
+   Contact Page
+   --------------------------------------------- */
+.contact-section {
+    padding: var(--section-padding) 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info > p {
+    color: var(--text-secondary);
+    margin-bottom: 30px;
+}
+
+.info-items {
+    margin-bottom: 30px;
+}
+
+.info-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.info-content h5 {
+    margin-bottom: 5px;
+    color: var(--text-heading);
+}
+
+.info-content p {
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
+.social-connect h5 {
+    margin-bottom: 15px;
+}
+
+.social-connect .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-connect .social-icons a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    transition: all var(--transition-fast);
+}
+
+.social-connect .social-icons a:hover {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+.contact-form-wrapper {
+    background-color: var(--bg-light);
+    padding: 40px;
+    border-radius: var(--radius-lg);
+}
+
+.contact-form-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+.contact-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------------------
+   About Page
+   --------------------------------------------- */
+.about-section {
+    padding: var(--section-padding) 0;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-image img {
+    border-radius: var(--radius-lg);
+    width: 100%;
+}
+
+.about-content .section-subtitle {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: var(--text-secondary);
+}
+
+.about-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.stat-box {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--bg-light);
+    border-radius: var(--radius-md);
+}
+
+.stat-box .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stat-box .stat-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Team Section */
+.team-preview {
+    padding: var(--section-padding) 0;
+    background-color: var(--bg-light);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.team-card {
+    background-color: var(--bg-white);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.team-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.team-info h4 {
+    margin-bottom: 5px;
+}
+
+.team-info p {
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+/* ---------------------------------------------
+   Services Page
+   --------------------------------------------- */
+/* Services Hero Banner */
+.services-hero-banner {
+    position: relative;
+    padding: 140px 0 80px;
+    margin-top: 80px;
+    overflow: hidden;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.services-hero-banner .banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.services-hero-banner .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(18, 95, 76, 0.85) 0%, rgba(0, 0, 0, 0.6) 100%);
+    z-index: 1;
+}
+
+.services-hero-banner .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.services-hero-banner .breadcrumb {
+    margin-bottom: 20px;
+}
+
+.services-hero-banner .breadcrumb,
+.services-hero-banner .breadcrumb a,
+.services-hero-banner .breadcrumb span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.services-hero-banner .breadcrumb a:hover {
+    color: #fff;
+}
+
+.services-hero-banner .banner-content {
+    max-width: 650px;
+}
+
+.services-hero-banner .banner-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.services-hero-banner .banner-content p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* Services Introduction */
+.services-intro {
+    padding: 60px 0 40px;
+}
+
+.services-intro .intro-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.services-intro h2 {
+    font-size: 2.25rem;
+    margin-bottom: 15px;
+    color: var(--text-heading);
+}
+
+.services-intro p {
+    font-size: 1.0625rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Services Grid */
+.services-grid-section {
+    padding: 40px 0 80px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background: var(--bg-white);
+    border-radius: 16px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(18, 95, 76, 0.12);
+    border-color: rgba(18, 95, 76, 0.15);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+    transform: scale(1.05);
+}
+
+.service-icon i {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.service-content h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-heading);
+    margin-bottom: 12px;
+}
+
+.service-content > p {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+}
+
+.service-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    padding: 8px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.service-features li:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.service-features li i {
+    color: var(--primary-green);
+    font-size: 0.75rem;
+}
+
+/* Why Choose Services Section */
+.why-choose-services {
+    padding: 80px 0;
+    background: var(--bg-light);
+}
+
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.advantage-item {
+    text-align: center;
+    padding: 40px 25px;
+    background: var(--bg-white);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.advantage-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.advantage-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-green);
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.advantage-item h4 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--text-heading);
+    margin-bottom: 10px;
+}
+
+.advantage-item p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Services CTA Section */
+.services-cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
+}
+
+.services-cta .cta-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services-cta h2 {
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.services-cta p {
+    font-size: 1.0625rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.services-cta .cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-cta .btn-primary {
+    background: #fff;
+    color: var(--primary-green);
+}
+
+.services-cta .btn-primary:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.services-cta .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.services-cta .btn-outline:hover {
+    background: #fff;
+    color: var(--primary-green);
+}
+
+/* ---------------------------------------------
+   Products Page
+   --------------------------------------------- */
+/* ---------------------------------------------
+   Products Hero Banner
+   --------------------------------------------- */
+.products-hero-banner {
+    position: relative;
+    padding: 140px 0 80px;
+    margin-top: 80px;
+    overflow: hidden;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.products-hero-banner .banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.products-hero-banner .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+    z-index: 1;
+}
+
+.products-hero-banner .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.products-hero-banner .breadcrumb {
+    margin-bottom: 20px;
+}
+
+.products-hero-banner .breadcrumb,
+.products-hero-banner .breadcrumb a,
+.products-hero-banner .breadcrumb span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.products-hero-banner .breadcrumb a:hover {
+    color: #fff;
+}
+
+.products-hero-banner .banner-content {
+    max-width: 600px;
+}
+
+.products-hero-banner .banner-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.products-hero-banner .banner-content p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* ---------------------------------------------
+   Products Page
+   --------------------------------------------- */
+.products-page {
+    padding: var(--section-padding) 0;
+}
+
+.product-category {
+    margin-bottom: 80px;
+    scroll-margin-top: 100px;
+}
+
+.product-category:last-child {
+    margin-bottom: 0;
+}
+
+/* Category Footer - View All Link */
+.category-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+}
+
+.view-all-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+    background: linear-gradient(135deg, #1a6b52 0%, var(--primary-green) 100%);
+}
+
+.view-all-link i {
+    font-size: 0.875rem;
+    transition: transform 0.3s ease;
+}
+
+.view-all-link:hover i {
+    transform: translateX(4px);
+}
+
+.category-header {
+    margin-bottom: 30px;
+}
+
+.category-header h2 {
+    margin-bottom: 10px;
+}
+
+.category-header p {
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
+.products-grid-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product-card-page {
+    background-color: var(--bg-white);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.product-card-page:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.product-card-page .product-image {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card-page .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    mix-blend-mode: multiply;
+    transition: transform var(--transition-normal);
+}
+
+.product-card-page:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.product-card-page .product-info {
+    padding: 20px;
+}
+
+.product-card-page .product-info h4 {
+    margin-bottom: 10px;
+}
+
+.product-card-page .product-info p {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+    margin-bottom: 15px;
+}
+
+.product-card-page .btn {
+    width: 100%;
+}
+
+/* ---------------------------------------------
+   Responsive Design for Pages
+   --------------------------------------------- */
+@media (max-width: 1024px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products-grid-page {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Services Page - Tablet */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        padding: 100px 0 40px;
+        margin-top: 70px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Services Hero Banner - Mobile */
+    .services-hero-banner {
+        padding: 110px 0 50px;
+        margin-top: 70px;
+        min-height: 280px;
+    }
+
+    .services-hero-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .services-hero-banner .banner-content p {
+        font-size: 1rem;
+    }
+
+    .services-intro {
+        padding: 40px 0 30px;
+    }
+
+    .services-intro h2 {
+        font-size: 1.75rem;
+    }
+
+    .services-grid-section {
+        padding: 30px 0 60px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .service-card {
+        padding: 30px 25px;
+    }
+
+    .why-choose-services {
+        padding: 60px 0;
+    }
+
+    .advantages-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 35px;
+    }
+
+    .advantage-item {
+        padding: 30px 20px;
+    }
+
+    .advantage-number {
+        font-size: 2rem;
+    }
+
+    .services-cta {
+        padding: 60px 0;
+    }
+
+    .services-cta h2 {
+        font-size: 1.75rem;
+    }
+
+    /* Products Hero Banner - Mobile */
+    .products-hero-banner {
+        padding: 110px 0 50px;
+        margin-top: 70px;
+        min-height: 280px;
+    }
+
+    .products-hero-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .products-hero-banner .banner-content p {
+        font-size: 1rem;
+    }
+
+    .view-all-link {
+        padding: 12px 24px;
+        font-size: 0.9375rem;
+    }
+
+    .category-footer {
+        margin-top: 30px;
+        padding-top: 25px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-form-wrapper {
+        padding: 25px;
+    }
+
+    .contact-form .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .products-grid-page {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Services Page - Small Mobile */
+    .advantages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-cta .cta-buttons {
+        flex-direction: column;
+    }
+
+    .services-cta .btn-primary,
+    .services-cta .btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+}
