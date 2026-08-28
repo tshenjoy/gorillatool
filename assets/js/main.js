@@ -1,5 +1,5 @@
 /**
- * StarlandMech - Main JavaScript
+ * GorillaTool - Main JavaScript
  * A clean, maintainable JS file for the static site
  */
 

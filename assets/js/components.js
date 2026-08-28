@@ -1,5 +1,5 @@
 /**
- * StarlandMech - Shared Components
+ * GorillaTool - Shared Components
  * Renders header navigation and footer from a single source.
  * Usage: Include this script, then call renderHeader('pageName') and renderFooter().
  */
@@ -45,7 +45,7 @@
             '  <div class="header-container">' +
             '    <div class="logo">' +
             '      <a href="' + base + 'index.html">' +
-            '        <img src="' + base + 'assets/images/logo-header.png" alt="Gorilla Tool Logo">' +
+            '        <img src="' + base + 'assets/images/logo-footer.png" alt="GorillaTool Logo">' +
             '      </a>' +
             '    </div>' +
             '    <nav class="main-nav">' +
@@ -121,7 +121,7 @@
             '<footer class="site-footer">' +
             '  <div class="footer-container">' +
             '    <div class="footer-column footer-brand">' +
-            '      <img src="' + base + 'assets/images/logo-footer.png" alt="StarlandMech" class="footer-logo">' +
+            '      <img src="' + base + 'assets/images/logo-footer.png" alt="GorillaTool" class="footer-logo">' +
             '      <p class="footer-tagline">Professional construction machinery solutions built for performance, reliability, and durability on every job site.</p>' +
             '      <div class="social-icons">' +
             '        <a href="https://wa.me/message/7Y2LBZ2Z2SI3B1" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>' +
@@ -165,7 +165,7 @@
             '      <li><a href="#">Privacy Policy</a></li>' +
             '      <li><a href="#">Cookie Policy</a></li>' +
             '    </ul>' +
-            '    <p class="copyright">Copyright &copy; 2025 StarlandMech, All rights reserved</p>' +
+            '    <p class="copyright">Copyright &copy; 2025 GorillaTool, All rights reserved</p>' +
             '  </div>' +
             '</footer>';
 

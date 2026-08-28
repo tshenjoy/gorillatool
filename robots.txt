@@ -1,12 +1,12 @@
 # StarlandMech Robots.txt
-# https://starlandmech.com
+# https://www.gorillatool.au
 
 # Allow all crawlers
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://starlandmech.com/sitemap.xml
+Sitemap: https://www.gorillatool.au/sitemap.xml
 
 # Disallow assets that don't need indexing
 Disallow: /assets/js/
