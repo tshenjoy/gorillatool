@@ -401,9 +401,9 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     height: 100%;
     background: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.55) 0%,
-        rgba(0, 0, 0, 0.35) 50%,
-        rgba(0, 0, 0, 0.15) 100%
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.05) 100%
     );
 }
 
@@ -1221,6 +1221,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     padding: 60px 0;
     padding-right: 0;
     background-color: var(--bg-green);
+    background-image: linear-gradient(45deg, #1a1a1a 0%, var(--primary-green) 45%, var(--primary-green) 55%, #1a1a1a 100%);
     overflow: visible;
 }
 
