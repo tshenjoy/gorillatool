@@ -45,7 +45,7 @@
             '  <div class="header-container">' +
             '    <div class="logo">' +
             '      <a href="' + base + 'index.html">' +
-            '        <img src="' + base + 'assets/images/logo-footer.png" alt="StarlandMech Logo">' +
+            '        <img src="' + base + 'assets/images/logo-header.png" alt="Gorilla Tool Logo">' +
             '      </a>' +
             '    </div>' +
             '    <nav class="main-nav">' +
@@ -66,7 +66,9 @@
             '            <li><a href="' + pg + 'diamond-core-drill.html">Drill Machines</a></li>' +
             '            <li><a href="' + pg + 'drill-stand.html">Drill Stands</a></li>' +
             '            <li><a href="' + pg + 'floor-grinder.html">Floor Grinders</a></li>' +
+            '            <li><a href="' + pg + 'products.html#wall-saw">Wall Saws</a></li>' +
             '            <li><a href="' + pg + 'products.html#water-drill-dust-collector">Water Drills & Dust Collectors</a></li>' +
+            '            <li><a href="' + pg + 'products.html#water-tank">Water Tanks</a></li>' +
             '            <li><a href="' + pg + 'products.html#product-bundles">Product Bundles</a></li>' +
             '          </ul>' +
             '        </li>' +
