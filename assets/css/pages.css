@@ -245,13 +245,11 @@
     background-color: var(--bg-white);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .value-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 14px 34px rgba(183, 40, 44, 0.18);
 }
 
 .value-image {
@@ -295,6 +293,15 @@
 .team-preview {
     padding: var(--section-padding) 0;
     background-color: var(--bg-light);
+}
+
+.team-intro {
+    max-width: 760px;
+    margin: 15px auto 0;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
 
 .team-grid {
