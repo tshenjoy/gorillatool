@@ -220,6 +220,77 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* What Sets Us Apart */
+.about-values {
+    padding: var(--section-padding) 0;
+    background-color: var(--bg-light);
+}
+
+.about-values .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-values .section-subtitle {
+    color: var(--primary-green);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.value-card {
+    background-color: var(--bg-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 34px rgba(183, 40, 44, 0.18);
+}
+
+.value-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.value-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.value-card:hover .value-image img {
+    transform: scale(1.05);
+}
+
+.value-body {
+    padding: 24px;
+}
+
+.value-body h4 {
+    margin-bottom: 10px;
+    color: var(--text-dark);
+}
+
+.value-body p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Team Section */
 .team-preview {
     padding: var(--section-padding) 0;
