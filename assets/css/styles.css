@@ -34,6 +34,16 @@
     --accent-gold: #C9A962;
     --accent-gold-light: #D4B978;
 
+    /* Aliases for legacy var names used across pages.css */
+    --primary-color: var(--primary-green);
+    --text-secondary: var(--text-gray);
+    --text-light: var(--text-white);
+
+    /* Border radius */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+
     /* Fonts - Unified to single family */
     --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 

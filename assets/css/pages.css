@@ -201,21 +201,23 @@
 
 .stat-box {
     text-align: center;
-    padding: 20px;
-    background-color: var(--bg-light);
+    padding: 24px 20px;
+    background-color: var(--primary-green);
     border-radius: var(--radius-md);
+    box-shadow: 0 6px 18px rgba(183, 40, 44, 0.25);
 }
 
 .stat-box .stat-number {
     display: block;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--text-white);
 }
 
 .stat-box .stat-label {
     font-size: 0.875rem;
-    color: var(--text-secondary);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Team Section */
